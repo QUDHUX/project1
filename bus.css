@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav-bar{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar-brand img{
+    height: 60px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: red!important;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: black!important;
+    font-weight: 600;
+    font-size: 15px;
+}
+/*--------------------Slide-----------------------*/
+#slide{
+    width: 100%;
+    max-width: 100%;
+}
+.carousel-caption{
+    top: 50%;
+}
+.carousel-item{
+    object-fit: cover;
+}
+.carousel-caption h5{
+    color: blue;
+    font-size: 50px;
+}
+/*----------------------About---------------------*/
+#about{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color: black; 
+}
+
+    
+
+#about .btn a{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: red;
+}
+.about-content{
+    padding-top: 20px;
+}
+.progress-bar{
+    border-radius: 50px;
+}
+.skillsbar .progress{
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.skillsbar p{
+    margin-bottom: 3px;
+}
+
+/*-------------Services-------------*/
+#services{
+    background-color: turquoise;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#services h1{
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+#services h1::after{
+    content: " ";
+    background: white;
+    height: 3px;
+    width: 230px;
+    margin: 20px auto 5px;
+    display: block;
+
+}
+.services{
+    margin-top: 40px;
+
+}
+.icon{
+    font-size: 40px;
+    margin:  20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 50%; 
+    
+}
+.services .col-md-3{
+    color: white;
+}
+.services .col-md-3:hover{
+    background: blue;
+    cursor: pointer;
+    transition: 0.1s;
+}
+/*-----------------Team Members-----------*/
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: gold;
+}
+h1{
+    text-align: center;
+    color: blue;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: " ";
+    background: blue;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile{
+    margin-top: 25px;
+}
+.profile .img{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile .img img{
+    filter: grayscale(1);
+    object-fit: cover;
+}
+.profile .img img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile h2{
+    margin-top: 20px;
+}
+.profile h3{
+    margin-top: 10px;
+}
+.profile p{
+    margin-top: 15px;
+}#team .fa{
+    height: 25px;
+    width: 25px;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.img ul{
+    padding: 15px 0;
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.img ul li{
+    padding: 4px;
+    display: inline-block;
+}
+.img:hover ul{
+    opacity: 1;
+}
+.profile .irodah{
+    margin-top: 10px;
+}
+/*-----------Promo---------*/
+#promo{
+    background-image: url(artificial.jfif);
+    background-size: cover;
+    opacity: 0.5;
+    background-position: center;
+    color: yellow;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*-----------------Price Plan-----------*/
+#price{
+    padding: 40px 0;
+    background-color: white;
+}
+.single-price{
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: blue;
+    transition: 0.5s;
+}
+.single-price:hover{
+    box-shadow: 0 2px 20px lightblue;
+
+}
+.price-head{
+    background-color: white;
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.price-head h2{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+.price-head p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.price-content{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content ul li{
+    padding: 15px 10px;
+    list-style: none;
+}
+.fa-check-circle{
+    color: green;
+    margin-right: 10px;
+}
+.fa-times-circle{
+    color: red;
+    margin-right: 10px;
+}
+.price-button{
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.buy-button{
+    background-color: white;
+    border: 3px;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+.buy-button:hover{
+    background-color: lightblue;
+}
+.price-button .buy-button{
+    text-decoration: none;
+}
+/*-------------Get in touch----------*/
+#contact{
+    background: silver;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: skyblue;
+}
+.contact-form{
+    padding: 10px;
+}
+.follow{
+    background: white;
+    padding: 10px;
+    margin: 15px;
+}
+.follow .fa{
+    padding: 10px;
+}
+/*----------footer-------*/
+#footer{
+    text-align: center;
+    font-weight: 100px;
+    font-size: medium;
+    color: white;
+    background: blue;
+    padding: 20px;
+}
