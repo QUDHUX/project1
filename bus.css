@@ -71,6 +71,7 @@
 }
 .skillsbar p{
     margin-bottom: 3px;
+    margin-top: 20px;
 }
 
 /*-------------Services-------------*/
@@ -110,10 +111,10 @@
     border-radius: 50%; 
     
 }
-.services .col-md-3{
+.services .col-lg-3{
     color: white;
 }
-.services .col-md-3:hover{
+.services .col-lg-3:hover{
     background: blue;
     cursor: pointer;
     transition: 0.1s;
@@ -202,6 +203,9 @@ h1::after{
     font-family: Arial, Helvetica, sans-serif;
 }
 /*-----------------Price Plan-----------*/
+#spa{
+    margin-bottom: 30px;
+}
 #price{
     padding: 40px 0;
     background-color: white;
